@@ -4,4 +4,4 @@ Pour tous les TP, il est possible de se déplacer dans la scène en maintenant l
 
 Pour le TP3, il est aussi possible d'animer le squelette en appuyant sur F.
 
-Pour executer chaque TP, acceder au repertoir du TP en question et lancer Cmake.
+Pour exécuter chaque TP, accéder au répertoire du TP en question et lancer Cmake.
