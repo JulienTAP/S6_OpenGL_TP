@@ -33,16 +33,12 @@ const float lightRadius = 0.25f;
 // use space to move up
 
 // Vertices coordinates
-GLfloat vertices[32 * 32 * 11]; // Adjust size based on attributes (position, color, texCoord, normals)
+GLfloat vertices[32 * 32 * 11]; 
+GLfloat lightVertices[32 * 32 * 11]; 
 
 // Indices for vertices order
-GLuint indices[32 * 32 * 6]; // Adjust size based on the number of faces
-
-// Vertices coordinates
-GLfloat lightVertices[32 * 32 * 11]; // Adjust size based on attributes (position, color, texCoord, normals)
-
-// Indices for vertices order
-GLuint lightIndices[32 * 32 * 6]; // Adjust size based on the number of faces
+GLuint indices[32 * 32 * 6]; 
+GLuint lightIndices[32 * 32 * 6];
 
 void generateSphere(float radius, int faces, GLfloat* vertices, GLuint* indices) {
     int vertexIndex = 0;
